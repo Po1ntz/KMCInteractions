@@ -1,5 +1,5 @@
 # Kweebec May Cry (KMC) Interactions
-**KMC Interactions** is a combat-focused interaction library for Hytale modders. Its being developed for my mod _Kweebec May Cry_, but is designed to be as modular and reusable as possible.
+**KMC Interactions** is an interaction library for Hytale. Its being developed for my mod _Kweebec May Cry_, but is designed to be as modular and reusable as possible.
 
 This mod adds several new interactions:
 - Knockback: allows to add impulse in a given direction relative to the player
