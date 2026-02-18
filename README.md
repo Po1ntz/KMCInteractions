@@ -54,7 +54,7 @@ Bellow are the parameters that can be set in the Asset Editor
 2. Add a new entry under `"KMC"` matching the name of a configured tag.
 When the interaction runs, it will look for the force value associated with that tag.
 
-![Model ID Location](imgs/Tags.png)
+![Tags](imgs/Tags.png)
 
 If no custom tag is defined in the configuration file, the interaction will fall back to the `"default"` tag force value.
 
@@ -74,7 +74,7 @@ This configuration can be changed manually by editing the config file or by usin
 The `modelID` corresponds exactly to the entity’s Model ID.  
 You can retrieve it in-game by pressing **F7 twice**, then checking:
 	`Target → Model`
-	
+
 ![Model ID Location](imgs/ModelID.png)
 
 #### Limitations
