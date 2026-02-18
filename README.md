@@ -89,3 +89,7 @@ If the force applied is in the XZ plane it can be a little finicky and hard to g
 5. Attack the `Antelope` and... 
 
 ## is that a bird... is that a plane... NO IT'S AN ANTELOPE
+
+### Future Plans
+
+-Add a GUI to handle the process of tag creation
