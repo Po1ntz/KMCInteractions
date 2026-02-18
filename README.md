@@ -74,6 +74,7 @@ This configuration can be changed manually by editing the config file or by usin
 The `modelID` corresponds exactly to the entity’s Model ID.  
 You can retrieve it in-game by pressing **F7 twice**, then checking:
 	`Target → Model`
+	
 ![Model ID Location](imgs/ModelID.png)
 
 #### Limitations
