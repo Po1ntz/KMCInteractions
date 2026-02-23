@@ -27,6 +27,10 @@ Allows the player to parry by attacking (is there a cooler way to parry XD)
 | Duration                          | Duration in milliseconds the parry window should be active for |
 | (Optional) Success Sound Event ID | The sound that should be played if the parry is sucessfull     |
 
+> [!IMPORTANT]
+> While testing this interaction was placed in parallel with the selector interaction. If it's placed in another location it may have unintended side effects
+
+
 ### Slowfall
 
 Modifies the target entity falling speed (perfect for some aerial combos)
@@ -38,7 +42,7 @@ Modifies the target entity falling speed (perfect for some aerial combos)
 | Delay      | Duration in milliseconds to wait before applying the slowfall  |
 
 > [!IMPORTANT]
-> While testing this interaction was placed in parallel to the knockback interaction. If it's placed in another location it may have unintended side effects
+> While testing this interaction was placed in parallel with the knockback interaction. If it's placed in another location it may have unintended side effects
 
 ### Knockback
 
