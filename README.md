@@ -35,10 +35,15 @@ Modifies the target entity falling speed (perfect for some aerial combos)
 | ---------- | -------------------------------------------------------------- |
 | Duration   | Duration in milliseconds the fall speed should be modified for |
 | Fall Speed | The value of speed to set (Positive = UP; Negative = DOWN)     |
-| Entity     | The target of the effect (Owner, Self, Target)                 |
+| Delay      | Duration in milliseconds to wait before applying the slowfall  |
+
+> [!IMPORTANT]
+> While testing this interaction was placed in parallel to the knockback interaction. If it's placed in another location it may have unintended side effects
+
 ### Knockback
 
-**Disclaimer**: This is currently the most complex interactions and the main focus of the mod as such expect some bugs.
+> [!WARNING] 
+> This is currently the most complex interactions and the main focus of the mod as such expect some bugs.
 
 This interaction allows the attacker to apply a "knockback" force in a direction relative to itself. Unlike the default DamageEntityInteraction knockback, this system supports tag-based force values per entity. This allows different attacks to apply different knockback behaviors without being limited to a single force value.
 
@@ -68,12 +73,12 @@ This configuration can be changed manually by editing the config file or by usin
 | /kmc_addTag    | /kmc_AT | Adds a new tag to all entities                                             | \<tag\> : tag name<br>(optional)\<force\> : initial force value                                                                              |
 | /kmc_editForce | /kmc_EF | Allows to edit the force value of a given tag in a given entity            | \<modelID\> : the entity that will have it's force edited<br>\<force\> :  new force value<br>(optional)\<tag\> : the tag to change the value |
 | /kmc_getForces | /kmc_GF | Shows all the forces associated with a given entity or from a specific tag | \<modelID\> : the entity that will have it's force edited<br>(optional)\<tag\> : check for only a single tag                                 |
+| /fe            |    -    | Opens the force editor GUI                                                 | (None)                                                                                                                                       |
 
-##### Important Notes
-
-The `modelID` corresponds exactly to the entity’s Model ID.  
-You can retrieve it in-game by pressing **F7 twice**, then checking:
-	`Target → Model`
+> [!IMPORTANT] 
+> The `modelID` corresponds exactly to the entity’s Model ID.  
+> You can retrieve it in-game by pressing **F7 twice**, then checking:
+>	`Target → Model`
 
 ![Model ID Location](imgs/ModelID.png)
 
@@ -89,7 +94,3 @@ If the force applied is in the XZ plane it can be a little finicky and hard to g
 5. Attack the `Antelope` and... 
 
 ## is that a bird... is that a plane... NO IT'S AN ANTELOPE
-
-### Future Plans
-
--Add a GUI to handle the process of tag creation
