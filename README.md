@@ -35,11 +35,12 @@ Allows the player to parry by attacking (is there a cooler way to parry XD)
 
 Modifies the target entity falling speed (perfect for some aerial combos)
 
-| Parameters | Description                                                    |
-| ---------- | -------------------------------------------------------------- |
-| Duration   | Duration in milliseconds the fall speed should be modified for |
-| Fall Speed | The value of speed to set (Positive = UP; Negative = DOWN)     |
-| Delay      | Duration in milliseconds to wait before applying the slowfall  |
+| Parameters   | Description                                                    |
+| ----------   | -------------------------------------------------------------- |
+| Duration     | Duration in milliseconds the fall speed should be modified for |
+| Fall Speed   | The value of speed to set (Positive = UP; Negative = DOWN)     |
+| Delay        | Duration in milliseconds to wait before applying the slowfall  |
+| Target Owner | Should the interaction affect the owner instead of the target  |
 
 > [!IMPORTANT]
 > While testing this interaction was placed in parallel with the knockback interaction. If it's placed in another location it may have unintended side effects
